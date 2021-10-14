@@ -28,10 +28,25 @@ body::-webkit-scrollbar-thumb {
     background-color: #D4E5BB;
 }
 
+.infoGeneral {
+    background-color:#EDF1FD;
+    border-radius: 1vh;
+    padding: 5vw;
+    text-align: left;
+    font-size: larger;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.infoGeneral h2 {
+    margin-bottom: 4vh;
+}
+
+
+
 .informacion {
     font-size: larger;
     text-align: justify;
-    background-color: #D4E5BB;
 }
 
 .frase {
@@ -44,7 +59,6 @@ body::-webkit-scrollbar-thumb {
 
 .info {
     color: #667346;
-    background-color: #D4E5BB;
 }
 
 .noscasamos {
@@ -250,7 +264,8 @@ footer {
     padding: 5vw;
     text-align: left;
     font-size: larger;
-    margin-top: 3rem;;
+    margin-top: 3rem;
+    align-items: center;
     
 }
 
@@ -270,3 +285,28 @@ footer {
     background-color: #95A865 !important;
     border-color: #95A865 !important;
 }
+
+.btn-danger {
+    background-color: #d95d41 !important;
+    border-color: #d95d41 !important;
+}
+
+.tarjetaChilenos {
+    background-color: #d95d41;
+    color: #EDF1FD;
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+.tarjetaBolivianos {
+    background-color: #95A865;
+    color: #EDF1FD;
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+.tarjetasCovid h3 {
+    color: #4d4d4d;
+}
+
+
