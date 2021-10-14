@@ -3,16 +3,17 @@ body {
     min-height: 100%;
     color: #1f2937;
     background-color: #D4E5BB;
-    background-position: center bottom;
+    
     background-size: 100% auto;
     background-repeat: repeat;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-image: url("../imgs/FondoPrueba.png");
+    background-image: url("../imgs/FondoMovil.png");
     scroll-behavior: smooth;
     font-size: 1rem;
 }
+
 
 
 body::-webkit-scrollbar {
@@ -52,6 +53,10 @@ body::-webkit-scrollbar-thumb {
     padding: 3%;
     width: auto;
     background-color: #D4E5BB;
+}
+
+.imgnoscasamos {
+    width: auto;
 }
 
 
