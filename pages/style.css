@@ -4,7 +4,7 @@ body {
     color: #1f2937;
     background-color: #D4E5BB;
     
-    background-size: 100% auto;
+    background-size: 100vh 100wh;
     background-repeat: repeat;
     text-align: center;
     font-family: 'Roboto', sans-serif;
