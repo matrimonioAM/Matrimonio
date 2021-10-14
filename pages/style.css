@@ -1,0 +1,267 @@
+html,
+body {
+    min-height: 100%;
+    color: #1f2937;
+    background-color: #D4E5BB;
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-repeat: repeat;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-image: url("../imgs/FondoPrueba.png");
+    scroll-behavior: smooth;
+    font-size: 1rem;
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.618rem;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #D4E5BB;
+}
+
+.informacion {
+    font-size: larger;
+    text-align: justify;
+    background-color: #D4E5BB;
+}
+
+.frase {
+    border-radius: 25px;
+    margin-bottom: 20vh;
+    padding: 3%;
+    width: auto;
+    background-color: #D4E5BB;
+}
+
+.info {
+    color: #667346;
+    background-color: #D4E5BB;
+}
+
+.noscasamos {
+    border-radius: 25px;
+    margin-bottom: 20vh;
+    padding: 3%;
+    width: auto;
+    background-color: #D4E5BB;
+}
+
+
+#Nombres {
+    color: #F2A284;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* Estandar */
+a {
+    color: #928fb7;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #D95D41;  
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: #6F6F6E;
+    margin-bottom: 10%;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+h4 {
+    font-weight: 400;
+}
+h5 {
+    font-weight: 300;
+}
+
+
+.logo {
+    border-radius: 25px;
+    margin-top: 20vmin;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 3%;
+    height: 90vh;
+    width: auto;
+    background-color: #D4E5BB;
+}
+
+.separador {
+    margin-bottom: 25vmin;
+    width: auto;
+    border-style: groove;
+}
+
+.separador3 {
+    margin-bottom: 10vmin;
+    width: auto;
+    border-style: groove;
+}
+
+.bg-primary {
+    background-color: #D4E5BB !important;
+}
+
+.bg-secondary {
+    background-color: #EDF1FD !important;
+}
+
+
+.card a {
+    color:#95A865;
+    font-size: 1.2rem;
+}
+.tarjetaregalos h3 {
+    color:#667346;
+}
+
+footer {
+    color:#667346;
+    background-color: #D4E5BB;
+}
+
+
+
+
+
+@media (min-width: 375px) {
+    .tarjetamasinfo {
+        margin-right: 8vw;
+        margin-left: 8vw;
+        margin-bottom: 5vh;
+    }
+   
+}
+
+@media (min-width: 570px) {
+    .tarjetamasinfo {
+        margin-right: 2vw;
+        margin-left: 2vw;
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 820px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url("../imgs/FondoWeb.png");
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    .tarjetamasinfo {
+        margin-right: 1vw;
+        margin-left: 1vw;
+        margin-bottom: 10vh;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+
+/* Animación */
+.logo {
+    animation: fadeIn 4s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;
+    -ms-animation: fadeIn 4s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+
+  /* Paginas secundarias */
+
+  .contenido {
+      background-color:#EDF1FD;
+      border-radius: 1vh;
+      padding: 7vh;
+      padding-left: 8vw;
+      text-align: left;
+      font-size: larger;
+      margin-top: 3rem;;
+      
+  }
+
+  .contenido h2 {
+      color: #95A865 ;
+  }
+
+  .contenido h3 {
+      color: #D95D41;
+  }
+
+  .contenido h4 {
+      color: #95A865 ;
+  }
+
+  .contenidoVes {
+    background-color:#EDF1FD;
+    border-radius: 1vh;
+    padding: 5vw;
+    text-align: left;
+    font-size: larger;
+    margin-top: 3rem;;
+    
+}
+
+.contenidoVes h2 {
+    color: #95A865 ;
+}
+
+.contenidoVes h3 {
+    color: #D95D41;
+}
+
+.tarjetasVes p {
+    font-size: medium;
+}
+
+.btn-secondary {
+    background-color: #95A865 !important;
+    border-color: #95A865 !important;
+}
